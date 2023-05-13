@@ -1,0 +1,44 @@
+/* footer styleas */
+.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img {
+    width: 180px;
+    height: 100px;
+    filter: brightness(50%);      
+}
+
+.footer > .footer-phone-hours > .hours :hover {
+    color: #cea135;
+    
+}
+
+.footer > .social-media-icons-wrapper a {
+    color:#cbcbcb;
+}
+
+.footer > .social-media-icons-wrapper a i {
+    width: 50px;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: #cea135;
+}
+
+.footer > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+    padding-top: 50px;
+}
